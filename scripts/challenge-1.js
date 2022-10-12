@@ -13,5 +13,7 @@
 const output = document.getElementById("output-container");
 if (!output) throw "Output container not found.";
 
+
+
 //@ts-check
 // your code starts after this line
