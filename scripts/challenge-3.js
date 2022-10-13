@@ -23,3 +23,6 @@ const input = document.getElementById("kilometers");
 const button = document.getElementById("calculate");
 
 // your code starts after this line
+button.addEventListener("click", (b) => {
+	output.innerText = input.value / 1.609;
+});

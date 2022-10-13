@@ -9,11 +9,16 @@
  */
 
 // you can log out to the console or to the output container like this:
+
 // output.innerText = "My output";
+const MAX_n = 10;
 const output = document.getElementById("output-container");
 if (!output) throw "Output container not found.";
 
-
+for (let n = 2; n <= 100; n += 2) {
+	output.append(n);
+	console.log(n);
+}
 
 //@ts-check
 // your code starts after this line
